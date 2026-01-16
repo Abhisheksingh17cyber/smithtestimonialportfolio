@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { motion, useScroll, useTransform, useInView } from 'framer-motion';
-import { FaRocket, FaSatellite, FaMoon, FaStar } from 'react-icons/fa';
+import { FaRocket, FaSatellite, FaMoon } from 'react-icons/fa';
 import { HiSparkles } from 'react-icons/hi';
 
 const RocketLaunch = () => {
