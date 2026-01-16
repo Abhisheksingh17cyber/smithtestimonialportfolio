@@ -7,18 +7,17 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     sourcemap: false,
-    minify: 'terser',
+    minify: 'esbuild',
     rollupOptions: {
       output: {
         manualChunks: {
           vendor: ['react', 'react-dom'],
-          three: ['three', '@react-three/fiber', '@react-three/drei'],
           animations: ['framer-motion', 'gsap', '@gsap/react']
         }
       }
     }
   },
   optimizeDeps: {
-    include: ['react', 'react-dom', 'three']
+    include: ['react', 'react-dom']
   }
 })

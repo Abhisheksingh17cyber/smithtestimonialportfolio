@@ -2,13 +2,13 @@ import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import Tilt from 'react-parallax-tilt';
 import { 
-  SiPython, SiCplusplus, SiMatlab, SiJavascript, SiReact, 
-  SiDocker, SiKubernetes, SiAmazonaws, SiGit, SiLinux,
-  SiTensorflow, SiPytorch, SiOpengl, SiAutodesk
+  SiPython, SiCplusplus, SiJavascript, SiReact, 
+  SiDocker, SiKubernetes, SiAmazonwebservices, SiGit, SiLinux,
+  SiTensorflow, SiOpengl, SiAutodesk
 } from 'react-icons/si';
 import { 
   FaRocket, FaSatellite, FaCogs, FaBrain, FaDatabase, 
-  FaChartLine, FaNetworkWired, FaMicrochip 
+  FaChartLine, FaNetworkWired, FaMicrochip, FaCalculator
 } from 'react-icons/fa';
 
 const Skills = () => {
@@ -31,7 +31,7 @@ const Skills = () => {
   const programmingSkills = [
     { name: 'Python', icon: SiPython, level: 95 },
     { name: 'C/C++', icon: SiCplusplus, level: 92 },
-    { name: 'MATLAB', icon: SiMatlab, level: 94 },
+    { name: 'MATLAB', icon: FaCalculator, level: 94 },
     { name: 'JavaScript', icon: SiJavascript, level: 78 },
     { name: 'React', icon: SiReact, level: 75 },
   ];
@@ -41,7 +41,7 @@ const Skills = () => {
     { name: 'SolidWorks', icon: SiAutodesk },
     { name: 'STK', icon: FaSatellite },
     { name: 'Docker', icon: SiDocker },
-    { name: 'AWS', icon: SiAmazonaws },
+    { name: 'AWS', icon: SiAmazonwebservices },
     { name: 'Git', icon: SiGit },
     { name: 'Linux', icon: SiLinux },
     { name: 'TensorFlow', icon: SiTensorflow },
