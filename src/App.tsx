@@ -1,4 +1,4 @@
-import { useEffect, useState, lazy, Suspense } from 'react';
+import { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -12,6 +12,7 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
+import RocketLaunch from './components/RocketLaunch';
 import Testimonials from './components/Testimonials';
 import Gallery from './components/Gallery';
 import Contact from './components/Contact';
@@ -79,6 +80,7 @@ function App() {
               <Skills />
               <Experience />
               <Projects />
+              <RocketLaunch />
               <Testimonials />
               <Gallery />
               <Contact />

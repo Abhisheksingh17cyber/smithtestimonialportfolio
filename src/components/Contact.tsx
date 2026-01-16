@@ -24,7 +24,7 @@ const Contact = () => {
     formState: { errors },
   } = useForm<FormData>();
 
-  const onSubmit = async (data: FormData) => {
+  const onSubmit = async (_data: FormData) => {
     setIsSubmitting(true);
     
     try {

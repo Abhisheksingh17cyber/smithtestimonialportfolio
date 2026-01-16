@@ -10,6 +10,7 @@ const navItems = [
   { name: 'Skills', to: 'skills' },
   { name: 'Experience', to: 'experience' },
   { name: 'Projects', to: 'projects' },
+  { name: 'Launch', to: 'rocket-launch' },
   { name: 'Testimonials', to: 'testimonials' },
   { name: 'Gallery', to: 'gallery' },
   { name: 'Contact', to: 'contact' },
@@ -58,7 +59,7 @@ const Navbar = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center gap-8">
-            {navItems.map((item, index) => (
+            {navItems.map((item) => (
               <Link
                 key={item.to}
                 to={item.to}

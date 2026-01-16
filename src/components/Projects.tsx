@@ -3,10 +3,10 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import Tilt from 'react-parallax-tilt';
 import { FaRocket, FaSatellite, FaSpaceShuttle, FaMeteor, FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
-import { HiCode, HiChip, HiCube } from 'react-icons/hi';
+import { HiCode, HiChip } from 'react-icons/hi';
 
 const Projects = () => {
-  const [ref, inView] = useInView({
+  const [ref] = useInView({
     triggerOnce: true,
     threshold: 0.1,
   });

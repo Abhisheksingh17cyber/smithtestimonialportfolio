@@ -1,5 +1,31 @@
 /// <reference types="vite/client" />
 
+// Swiper CSS module declarations
+declare module 'swiper/css' {
+  const content: string;
+  export default content;
+}
+
+declare module 'swiper/css/effect-coverflow' {
+  const content: string;
+  export default content;
+}
+
+declare module 'swiper/css/pagination' {
+  const content: string;
+  export default content;
+}
+
+declare module 'swiper/css/navigation' {
+  const content: string;
+  export default content;
+}
+
+declare module 'swiper/css/autoplay' {
+  const content: string;
+  export default content;
+}
+
 declare module '*.svg' {
   import * as React from 'react'
   export const ReactComponent: React.FunctionComponent<React.SVGProps<SVGSVGElement>>
