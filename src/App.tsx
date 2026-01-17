@@ -12,7 +12,7 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
-import RocketLaunch from './components/RocketLaunch';
+import Achievements from './components/Achievements';
 import Testimonials from './components/Testimonials';
 import Gallery from './components/Gallery';
 import Contact from './components/Contact';
@@ -80,7 +80,7 @@ function App() {
               <Skills />
               <Experience />
               <Projects />
-              <RocketLaunch />
+              <Achievements />
               <Testimonials />
               <Gallery />
               <Contact />

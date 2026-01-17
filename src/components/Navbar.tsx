@@ -10,7 +10,7 @@ const navItems = [
   { name: 'Skills', to: 'skills' },
   { name: 'Experience', to: 'experience' },
   { name: 'Projects', to: 'projects' },
-  { name: 'Research', to: 'rocket-launch' },
+  { name: 'Awards', to: 'rocket-launch' },
   { name: 'Testimonials', to: 'testimonials' },
   { name: 'Gallery', to: 'gallery' },
   { name: 'Contact', to: 'contact' },
